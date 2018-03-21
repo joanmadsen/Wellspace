@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+    <title>Wellspace Utah</title>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/css/bootstrap.min.css' ?>"/>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/css/main.css' ?>"/>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/css/theme.css' ?>"/>
+</head>
+<body>
+<header>
+
+    <?php
+$items = [];
+if (has_nav_menu('primary')) {
+$items = wp_get_nav_menu_items('primary', [
+'menu_class' => 'primary-menu',
+]);
+}
+?>
+<?php if (is_array($items)) : ?>
+<nav id="site-navigation" class="nav-primary">
+<?php foreach ($items as $item) : ?>
+<a href="<?php echo $item->url; ?>"><?php echo $item->title; ?></a>
+<?php endforeach; ?>
+</nav>
+<?php endif; ?>
+
+    <div class="container">
+        <div class="row">
+            <div class="col page-title">
+                <div id="logo"></div>
+                <h1>Wellspace</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <nav class="contact">
+                    <a href="tel:1234567890">1234567890</a>
+                    <a href="mailto:testy@mcgee.com">testy@mcgee.com</a>
+                </nav>
+                <nav class="social">
+                    <a href="http://facebook.com">F</a>
+                    <a href="http://twitter.com">T</a>
+                    <a href="http://pinterest.com">P</a>
+                </nav>
+
+            </div>
+        </div>
+    </div>
+    <div class="hero">
+
+    </div>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9 content" style="background: blue;">
+
+
+Lorem ipsum dolor amet mumblecore vape gentrify vaporware hot chicken. Kitsch YOLO jean shorts, narwhal snackwave organic master cleanse iPhone disrupt farm-to-table 90's messenger bag next level food truck bespoke. Cardigan pickled vape franzen health goth. Wolf pinterest master cleanse put a bird on it tumblr yuccie semiotics taiyaki messenger bag. Polaroid celiac cronut sartorial vape, typewriter messenger bag forage butcher yuccie enamel pin hammock flexitarian tumeric. Mlkshk copper mug locavore banh mi keytar. Pickled meggings aesthetic put a bird on it tacos.
+Marfa fanny pack brunch vice succulents crucifix. Vice asymmetrical affogato, echo park four dollar toast brooklyn 3 wolf moon bicycle rights etsy af. Retro +1 iceland, chia crucifix selvage flexitarian put a bird on it dreamcatcher wayfarers lo-fi tote bag. Subway tile cloud bread bicycle rights authentic 3 wolf moon shoreditch +1 green juice freegan paleo sustainable chicharrones.
+Slow-carb raw denim vaporware sustainable try-hard leggings. Scenester health goth next level, chia man bun farm-to-table wayfarers locavore messenger bag. Try-hard chia hashtag hammock ethical. Organic cornhole ugh stumptown synth offal adaptogen biodiesel migas vice health goth kinfolk quinoa kale chips flexitarian. Selfies la croix street art, tbh readymade paleo etsy. Skateboard slow-carb bicycle rights kombucha dreamcatcher etsy bitters wolf. Street art meggings kickstarter enamel pin, cray pabst marfa man braid gastropub meh tote bag venmo.
+Pop-up normcore adaptogen, locavore flannel cred raclette yuccie. Chicharrones pabst sustainable, gastropub messenger bag kickstarter kinfolk disrupt lumbersexual stumptown. Viral slow-carb whatever raclette marfa. Banh mi meggings microdosing, beard raw denim iceland edison bulb chillwave tilde enamel pin air plant 90's try-hard jianbing. Tilde swag asymmetrical humblebrag, poutine poke church-key offal sriracha cred brunch biodiesel tote bag salvia gluten-free.
+Godard actually fam tousled, forage letterpress flannel shabby chic narwhal asymmetrical knausgaard viral. Copper mug cray portland intelligentsia tumeric. Hammock hot chicken typewriter man braid pop-up street art slow-carb gochujang listicle pork belly. Jianbing mumblecore actually mlkshk tumblr meggings brooklyn yuccie cray health goth. Poke pinterest lomo, trust fund sriracha +1 lo-fi williamsburg normcore. Sartorial gochujang retro, hell of butcher cloud bread offal taiyaki narwhal.
+Oh. You need a little dummy text for your mockup? How quaint.
+I bet you’re still using Bootstrap too…
+
+
+        </div>
+        <div class="col-sm-3" style="background: green;"></div>
+    </div>
+</div>
+<footer></footer>
+
+</body>
+</html>

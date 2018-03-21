@@ -1,0 +1,41 @@
+body {
+    background: orange;
+    padding: 56px 0 0 0;
+}
+
+nav.nav-primary{
+    background: #d4d4d4;
+
+}
+
+nav.nav-primary a{
+    font-size: 1.5em;
+    padding: 10px 5px;
+    display: inline-block;
+}
+
+a:hover, a:focus{
+    text-decoration: none;
+    outline: none;
+
+}
+
+#logo {
+    background-image: url("../img/logo.png");
+    background-position: center center;
+    min-height: 210px;
+    width: 450px;
+    background-size: 100% auto;
+    margin: auto;
+}
+
+.page-title h1 {
+    display: none;
+}
+
+nav.contact {
+width: 160px;
+margin: auto;
+margin-top: 10px;
+}
+

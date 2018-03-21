@@ -1,0 +1,45 @@
+html {
+min-width: 320px;
+}
+
+
+body {
+    background: orange;
+    padding: 25px 0 0 0;
+}
+
+header {
+    text-align: center;
+}
+
+header .contact a {
+    display: block;
+}
+
+header .hero {
+    background-image: url("../img/bigmounts.jpg");
+    background-position: center center;
+    background-size: 100% auto;
+    height: 300px;
+}
+
+@media (max-width: 768px) {
+header .hero {
+height: 200px;
+}
+}
+
+.content {
+padding: 45px 25px;
+}
+
+nav.nav-primary{
+    position: fixed;
+    width: 100%;
+    background: purple;
+    z-index: 9;
+    top: 0;
+    left: 0;
+}
+
+
