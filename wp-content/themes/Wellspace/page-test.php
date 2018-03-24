@@ -2,6 +2,9 @@
 <html <?php language_attributes(); ?>>
 <head>
     <title>Wellspace Utah</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/fonts/font-awesome-4.7.0/css/font-awesome.min.css' ?>"/>
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/css/bootstrap.min.css' ?>"/>
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/css/main.css' ?>"/>
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri().'/css/theme.css' ?>"/>
@@ -20,6 +23,7 @@ $items = wp_get_nav_menu_items('primary', [
 <?php if (is_array($items)) : ?>
 <nav id="site-navigation" class="nav-primary">
 <?php foreach ($items as $item) : ?>
+    <?php if ($item->title == 'Privacy') continue; ?>
 <a href="<?php echo $item->url; ?>"><?php echo $item->title; ?></a>
 <?php endforeach; ?>
 </nav>
@@ -39,9 +43,9 @@ $items = wp_get_nav_menu_items('primary', [
                     <a href="mailto:testy@mcgee.com">testy@mcgee.com</a>
                 </nav>
                 <nav class="social">
-                    <a href="http://facebook.com">F</a>
-                    <a href="http://twitter.com">T</a>
-                    <a href="http://pinterest.com">P</a>
+                    <a href="http://facebook.com" class="fa fa-facebook"></a>
+                    <a href="http://twitter.com" class="fa fa-twitter"></a>
+                    <a href="http://pinterest.com" class="fa fa-pinterest"></a>
                 </nav>
 
             </div>
@@ -53,7 +57,7 @@ $items = wp_get_nav_menu_items('primary', [
 </header>
 <div class="container">
     <div class="row">
-        <div class="col-sm-9 content" style="background: blue;">
+        <div class="col-sm-9 content">
 
 
 Lorem ipsum dolor amet mumblecore vape gentrify vaporware hot chicken. Kitsch YOLO jean shorts, narwhal snackwave organic master cleanse iPhone disrupt farm-to-table 90's messenger bag next level food truck bespoke. Cardigan pickled vape franzen health goth. Wolf pinterest master cleanse put a bird on it tumblr yuccie semiotics taiyaki messenger bag. Polaroid celiac cronut sartorial vape, typewriter messenger bag forage butcher yuccie enamel pin hammock flexitarian tumeric. Mlkshk copper mug locavore banh mi keytar. Pickled meggings aesthetic put a bird on it tacos.
@@ -66,10 +70,14 @@ I bet you’re still using Bootstrap too…
 
 
         </div>
-        <div class="col-sm-3" style="background: green;"></div>
+        <div class="col-sm-3"></div>
     </div>
 </div>
-<footer></footer>
+<footer>
+<nav class="container">
+<a href="<?php echo get_permalink(get_page_by_title('privacy')); ?>">Privacy Policy</a>
+</nav>
+</footer>
 
 </body>
 </html>

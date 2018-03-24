@@ -4,7 +4,7 @@ min-width: 320px;
 
 
 body {
-    background: orange;
+    background: white;
     padding: 25px 0 0 0;
 }
 
@@ -36,7 +36,7 @@ padding: 45px 25px;
 nav.nav-primary{
     position: fixed;
     width: 100%;
-    background: purple;
+    background: white;
     z-index: 9;
     top: 0;
     left: 0;

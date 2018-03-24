@@ -1,23 +1,31 @@
 body {
-    background: orange;
-    padding: 56px 0 0 0;
+    background: white;
+    padding: 66px 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+nav.nav-primary {
+background: #8e5e36;
 }
 
-nav.nav-primary{
-    background: #d4d4d4;
-
+a {
+color: #b9cbd7;
 }
 
-nav.nav-primary a{
-    font-size: 1.5em;
-    padding: 10px 5px;
-    display: inline-block;
+a:hover, a:focus {
+text-decoration: none;
+outline: none;
+color: #d3dae1;
 }
 
-a:hover, a:focus{
-    text-decoration: none;
-    outline: none;
+nav.nav-primary a {
+font-size: 1.5em;
+padding: 15px;
+display: inline-block;
+color: #d5c7bc;
+}
 
+nav.nav-primary a:hover {
+color: white;
 }
 
 #logo {
@@ -27,6 +35,7 @@ a:hover, a:focus{
     width: 450px;
     background-size: 100% auto;
     margin: auto;
+    margin-top: 15px;
 }
 
 .page-title h1 {
@@ -39,3 +48,17 @@ margin: auto;
 margin-top: 10px;
 }
 
+nav.social {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+nav.social a.fa {
+font-size: 25px;
+padding: 10px;
+}
+
+footer {
+    background-color: #f5f6f7;
+    padding: 15px;
+}
