@@ -17,7 +17,7 @@ header .contact a {
 }
 
 header .hero {
-    background-image: url("../img/bigmounts.jpg");
+    background-image: url("../img/canyon.jpg");
     background-position: center center;
     background-size: 100% auto;
     height: 300px;
@@ -29,8 +29,8 @@ height: 200px;
 }
 }
 
-.content {
-padding: 45px 25px;
+.content, .sidebar{
+padding-top: 45px;
 }
 
 nav.nav-primary{
@@ -42,4 +42,6 @@ nav.nav-primary{
     left: 0;
 }
 
-
+form label{
+    display: block;
+}

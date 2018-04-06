@@ -3,6 +3,26 @@ body {
     padding: 66px 0 0 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+.cta{
+    background-color: #75777b;
+    padding: 15px;
+}
+
+.cta span{
+    color: white;
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.cta button.btn-primary{
+    background-color: #959955;
+    border: none;
+    border-radius: 0;
+}
+
 nav.nav-primary {
 background: #8e5e36;
 }
@@ -32,7 +52,7 @@ color: white;
     background-image: url("../img/logo.png");
     background-position: center center;
     min-height: 210px;
-    width: 450px;
+    max-width: 450px;
     background-size: 100% auto;
     margin: auto;
     margin-top: 15px;
@@ -48,6 +68,10 @@ margin: auto;
 margin-top: 10px;
 }
 
+nav.contact a, nav.social a {
+color: #504545
+}
+
 nav.social {
 margin-top: 10px;
 margin-bottom: 10px;
@@ -61,4 +85,25 @@ padding: 10px;
 footer {
     background-color: #f5f6f7;
     padding: 15px;
+}
+
+.profile{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.profile .photo{
+    background: gray;
+    width: 160px;
+    height: 160px;
+    margin: 15px auto;
+    border-radius: 50%;
+}
+.profile h2{
+    font-size: 22px;
+}
+
+.profile h3{
+    font-size: 18px;
+    color: #504545
 }
