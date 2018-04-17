@@ -34,6 +34,7 @@ $items = wp_get_nav_menu_items('primary', [
             <div class="col page-title">
                 <div id="logo"></div>
                 <h1>Wellspace</h1>
+                <h2>Comprehensive DBT & Therapy</h2>
             </div>
         </div>
         <div class="row">

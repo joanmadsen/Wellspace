@@ -1,109 +1,119 @@
 body {
-    background: white;
-    padding: 66px 0 0 0;
-    font-family: 'Montserrat', sans-serif;
+	padding: 66px 0 0 0;
+	font-family: 'Montserrat', sans-serif;
 }
 
-.cta{
-    background-color: #75777b;
-    padding: 15px;
+.cta {
+	background-color: #75777b;
+	padding: 15px;
 }
 
-.cta span{
-    color: white;
-    margin: 10px;
-    text-transform: uppercase;
-    font-size: 24px;
-    vertical-align: middle;
+.cta span {
+	color: white;
+	margin: 10px;
 }
 
-.cta button.btn-primary{
-    background-color: #959955;
-    border: none;
-    border-radius: 0;
+.cta span {
+	color: white;
+	margin: 10px;
+	text-transform: uppercase;
+	font-size: 24px;
+	vertical-align: middle;
+}
+
+.cta button.btn-primary {
+	background-color: #959955;
+	border: none;
+	border-radius: 0;
 }
 
 nav.nav-primary {
-background: #8e5e36;
+	background: #4d6173;
 }
 
 a {
-color: #b9cbd7;
+	color: #b9cbd7;
 }
 
 a:hover, a:focus {
-text-decoration: none;
-outline: none;
-color: #d3dae1;
+	text-decoration: none;
+	outline: none;
+	color: #d3dae1;
 }
 
 nav.nav-primary a {
-font-size: 1.5em;
-padding: 15px;
-display: inline-block;
-color: #d5c7bc;
+	font-size: 1.5em;
+	padding: 10px;
+	display: inline-block;
+	color: white;
 }
 
 nav.nav-primary a:hover {
-color: white;
+	color: #e4e4e2;
 }
 
 #logo {
-    background-image: url("../img/logo.png");
-    background-position: center center;
-    min-height: 210px;
-    max-width: 450px;
-    background-size: 100% auto;
-    margin: auto;
-    margin-top: 15px;
+	display: block;
+	background-image: url("../img/logo.png");
+	background-position: center -100px;
+	background-size: 100% auto;
+	min-height: 220px;
+	max-width: 450px;
+	margin: auto;
+	margin-top: 15px;
 }
 
 .page-title h1 {
-    display: none;
-}
-
-nav.contact {
-width: 160px;
-margin: auto;
-margin-top: 10px;
+	display: none;
 }
 
 nav.contact a, nav.social a {
-color: #504545
+	color: #504545;
+}
+
+nav.contact {
+	width: 160px;
+	margin: auto;
+	margin-top: 10px;
 }
 
 nav.social {
-margin-top: 10px;
-margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 nav.social a.fa {
-font-size: 25px;
-padding: 10px;
+	font-size: 25px;
+	padding: 10px;
 }
 
 footer {
-    background-color: #f5f6f7;
-    padding: 15px;
+	background-color: #f4f5f6;
+	padding: 10px;
 }
 
-.profile{
-    text-align: center;
-    margin-bottom: 15px;
+.profile {
+	text-align: center;
+	margin-bottom: 15px;
 }
 
-.profile .photo{
-    background: gray;
-    width: 160px;
-    height: 160px;
-    margin: 15px auto;
-    border-radius: 50%;
-}
-.profile h2{
-    font-size: 22px;
+.profile .photo {
+	background: gray;
+	width: 160px;
+	height: 160px;
+	margin: 15px auto;
+	border-radius: 50%;
 }
 
-.profile h3{
-    font-size: 18px;
-    color: #504545
+.profile h2 {
+	font-size: 22px;
+}
+
+.profile h3 {
+	font-size: 18px;
+	color: #504545;
+}
+
+.profile address {
+	color: #504545;
 }
