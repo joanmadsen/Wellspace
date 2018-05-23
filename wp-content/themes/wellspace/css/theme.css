@@ -1,0 +1,165 @@
+body {
+	padding: 56px 0 0 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.backdrop-container {
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+
+.backdrop {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.overlay {
+	background: #504545;
+	opacity: .3;
+}
+
+.cta {
+	background-color: #75777b;
+	padding: 15px;
+}
+
+.cta span {
+	color: white;
+	margin: 10px;
+}
+
+.cta span {
+	color: white;
+	margin: 10px;
+	text-transform: uppercase;
+	font-size: 24px;
+	vertical-align: middle;
+}
+
+.btn.btn-primary {
+	background-color: #959955;
+	border: none;
+	border-radius: 0;
+}
+
+nav.nav-primary {
+	background: #4d6173;
+}
+
+a {
+	color: #4d6173;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	outline: none;
+	color: #d3dae1;
+}
+
+nav.nav-primary a {
+	font-size: 1.5em;
+	padding: 10px;
+	display: inline-block;
+	color: white;
+}
+
+nav.nav-primary a:hover {
+	color: #e4e4e2;
+}
+
+#logo {
+	display: block;
+	background-image: url("../img/logo.png");
+	background-position: center;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	min-height: 220px;
+	max-width: 450px;
+	margin: auto;
+}
+
+.page-title h1 {
+	display: none;
+}
+
+.sub-heading {
+	color: white;
+}
+
+.contact-info-mobile {
+	background: #4d6173;
+}
+
+nav.contact a, nav.social a {
+	color: white;
+}
+
+nav.contact {
+	width: 160px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+nav.social {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+nav.social a.fa {
+	font-size: 25px;
+	padding: 10px;
+}
+
+footer {
+	background-color: #f4f5f6;
+	padding: 10px;
+}
+
+.profile-container {
+	padding-bottom: 15px;
+}
+
+.profile {
+	background-color: #eee;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 15px;
+}
+
+.profile .photo {
+	background: gray;
+	width: 160px;
+	height: 160px;
+	margin: 15px auto;
+	border-radius: 50%;
+}
+
+.profile h2 {
+	font-size: 22px;
+}
+
+.profile h3 {
+	font-size: 18px;
+	color: #504545;
+}
+
+.profile address {
+	color: #504545;
+}
+
+.profile nav.contact a {
+	color: #4d6173;
+}
+
+.main-heading {
+	text-align: center;
+}
+
+.entry-footer {
+	background-color: inherit;
+}

@@ -1,0 +1,15 @@
+Ok so the specifics they wanted were an "about us" page with 3 vertical sections for each therapist - which we already
+started working on, a blog page, and for the hero bar to be a slide bar. As far as the other photos for the hero bar,
+it sounded like we could pick whatever looked good.
+
+Also Janelle did send me an email last night saying she never heard back if she could get the font used in their logo.
+She also asked for an update on the website. I told her we finished the contact page and we are hoping to wrap it up
+over the weekend. Let me know if you need anything!
+
+ToDo:
+- homepage slider?
+- homepage as blog?
+
+Release:
+- Contact Form 7
+- reCaptcha

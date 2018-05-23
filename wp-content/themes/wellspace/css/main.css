@@ -1,0 +1,92 @@
+html {
+	min-width: 350px;
+}
+
+body {
+	padding: 25px 0 0 0;
+}
+
+header {
+	text-align: center;
+}
+
+header .contact a {
+	display: block;
+}
+
+header .hero {
+	background-image: url("../img/hero.jpg");
+	background-position: center;
+	background-size: 100% auto;
+	padding-top: 15px;
+}
+
+header .contact-info-mobile {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	header .hero {
+		padding-top: 10px;
+	}
+
+	.sub-heading {
+		font-size: 1.6rem;
+		margin-top: 6px;
+	}
+}
+
+@media (max-width: 600px) {
+	header .hero {
+		background-size: auto 100%;
+	}
+}
+
+.content, .sidebar {
+	padding-top: 45px;
+}
+
+nav.nav-primary {
+	position: fixed;
+	width: 100%;
+	z-index: 9;
+	top: 0;
+	left: 0;
+}
+
+form label {
+	display: block;
+}
+
+.avatar {
+	margin: 0 10px 0 0 ;
+}
+
+.navigation {
+	margin: 15px 0;
+}
+
+article {
+	margin: 0 0 15px 0;
+}
+
+.site-main {
+	padding: 0 0 20px;
+}
+
+.entry-footer {
+	background-color: #f0f0f0 !important;
+	margin-bottom: 20px;
+}
+
+.entry-footer .byline {
+	margin-right: 15px;
+}
+
+.entry-footer .comments-link {
+	display: none;
+}
+
+.more-link {
+	display: block;
+}

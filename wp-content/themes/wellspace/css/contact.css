@@ -1,0 +1,50 @@
+.mapouter {
+	overflow: hidden;
+	height: 300px;
+	width: 100%;
+	margin: auto;
+}
+
+.gmap_canvas {
+	background: none !important;
+	height: 300px;
+	width: 100%;
+}
+
+#gmap_canvas {
+	width: 1080px;
+	margin: auto;
+	display: block;
+}
+
+#contact-container form {
+	margin-bottom: 20px;
+}
+
+#contact-container input, #contact-container textarea {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#contact-container input[type="submit"] {
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	background-color: #959955;
+	border: none;
+	border-radius: 0;
+	color: white;
+	cursor: pointer;
+}
+
+
